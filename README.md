@@ -7,13 +7,6 @@ A Flutter application that displays real-time weather information for various ci
   <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-green" />
 </div>
 
-## 📽️ Demo Video
-
-Check out the full demo of the Weather App below:  
-[![Watch the video](weatheApp.mp4)](weatheApp.mp4)
-
-
-
 ---
 
 ## 🚀 Features
