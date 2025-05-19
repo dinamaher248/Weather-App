@@ -2,6 +2,7 @@ import 'dart:ffi';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:go_router/go_router.dart';
 import 'package:sizer/sizer.dart';
 import 'package:weather_app/widgets/weather_widgets/weather_card.dart';
@@ -63,7 +64,10 @@ void initState() {
                 final cubit = context.read<WeatherCubit>();
 
                 if (state is weatherLoading) {
-                  return Center(child: CircularProgressIndicator());
+                  return Padding(
+                    padding:  EdgeInsets.only(top: 30.h),
+                    child: Center(child: SpinKitChasingDots(color: Colors.purple, size: 50.0),),
+                  );
                 } else if (state is weatherSuccess) {
                   if (cubit.searchedCity != null) {
                     return Column(

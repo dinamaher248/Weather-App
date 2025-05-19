@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:sizer/sizer.dart';
 import 'package:weather_app/constant/colors.dart';
 import 'package:weather_app/constant/image_pathes.dart' show ImagePathes;
@@ -65,7 +66,7 @@ class _HomeState extends State<Home> {
                 children: [
                   Image.asset(ImagePathes.backgroundImage, fit: BoxFit.cover),
                   State is weatherLoading
-                      ? Center(child: CircularProgressIndicator(color: PrimaryColor))
+                      ? Center(child: SpinKitChasingDots(color: Colors.purple, size: 50.0),)
                       : InfoHomeWidget(cubit: cubit),
                   // Draggable Bottom Card
                   DraggableScrollableSheet(

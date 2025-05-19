@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:go_router/go_router.dart';
 import 'package:sizer/sizer.dart';
 import 'package:weather_app/constant/app_router.dart';
@@ -40,7 +41,7 @@ class _WeatherBottomCardState extends State<WeatherBottomCard> {
     return BlocBuilder<WeatherCubit, WeatherState>(
       builder: (context, state) {
         if (state is weatherLoading) {
-          return Center(child: CircularProgressIndicator());
+          return Center(child: SpinKitChasingDots(color: Colors.purple, size: 50.0),);
         } else if (state is weatherSuccess) {
           final weatherModel = context.read<WeatherCubit>().weatherModel!;
           return NotificationListener<DraggableScrollableNotification>(
