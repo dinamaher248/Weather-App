@@ -7,13 +7,6 @@ A Flutter application that displays real-time weather information for various ci
   <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-green" />
 </div>
 
-## 📽️ Demo Video
-
-Check out the full demo of the Weather App below:  
-[![Watch the video](weatheApp.mp4)](weatheApp.mp4)
-
-
-
 ---
 
 ## 🚀 Features
@@ -45,11 +38,10 @@ Weather data is fetched using a weather API ([WeatherAPI.com](https://www.weathe
 
 ## 📷 Screenshots
 
-> ![first](screenshot1.png)
-> ![second](screenshot2.png)
-> ![third](screenshot3.png)
-> ![fourth](screenshot4.png)
 
+> <p align="center"><img src="screenshot1.png"/></p>
+<p align="center"><img src="screenshot2.png"/></p>
+<p align="center"><img src="screenshot3.png"/></p>
 <p align="center"><img src="screenshot4.png"/></p>
 ---
 
@@ -63,11 +55,11 @@ Weather data is fetched using a weather API ([WeatherAPI.com](https://www.weathe
 
 ### Installation Steps
 
-```bash
-git clone https://github.com/dinamaher248/weather_app.git
-cd weather_app
-flutter pub get
-flutter run
+    ```bash
+    git clone https://github.com/dinamaher248/weather_app.git
+    cd weather_app
+    flutter pub get
+    flutter run
 
 
 💬 Contact
