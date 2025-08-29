@@ -71,10 +71,9 @@ Weather data is fetched from [WeatherAPI.com](https://www.weatherapi.com/docs/).
 
 ## 📷 Screenshots
 
-<p align="center"><img src="screenshot1.png"/></p>
-<p align="center"><img src="screenshot2.png"/></p>
-<p align="center"><img src="screenshot3.png"/></p>
-<p align="center"><img src="screenshot4.png"/></p>
+| Home view | More View | All Weather | Searching View |
+|-----------|-----------|-------------|----------------|
+| ![Home](screenshot1.png) | ![More View](screenshot2.png) | ![All Weather](screenshot3.png) | ![Searching View](screenshot4.png) |
 
 ---
 
